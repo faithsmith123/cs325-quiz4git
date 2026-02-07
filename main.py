@@ -1,4 +1,4 @@
-def add(num1, num2):
+def addition(num1, num2):
     return num1 + num2
 def subtract(num1, num2):
     return num1 - num2
@@ -19,7 +19,7 @@ num2 = float(input("Enter second number: "))
 operator = input("Enter operation (+, -, *, /): ")
 
 if operator == "+":
-    result = add(num1, num2)
+    result = addition(num1, num2)
 elif operator == "-":
     result = subtract(num1, num2)
 elif operator == "*":
