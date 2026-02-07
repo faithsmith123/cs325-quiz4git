@@ -1,3 +1,9 @@
+def add(num1, num2):
+    return num1 + num2
+def subtract(num1, num2):
+    return num1 - num2
+def multiply(a, b):
+    return a * b
 
          # 🔴 LINE TO RENAME LATER
 
@@ -12,6 +18,8 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
             
+        
+
 
 
 num1 = float(input("Enter first number: "))
@@ -30,3 +38,4 @@ else:
     result = "Invalid operator"
 
 print("Result:", result)
+
