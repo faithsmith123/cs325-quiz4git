@@ -4,7 +4,6 @@ def subtract(num1, num2):
     return num1 - num2
 def multiply(a, b):
     return a * b
-
 def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
