@@ -5,6 +5,19 @@ def subtract(num1, num2):
 def multiply(a, b):
     return a * b
 
+         # 🔴 LINE TO RENAME LATER
+
+
+
+
+
+
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
+            
         
 
 
